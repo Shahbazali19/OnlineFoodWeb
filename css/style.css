@@ -133,7 +133,7 @@ html{
 
 /* Clients Section */
 #client-section{ 
-    position: relative;
+    position:relative;
 }
 
 #client-section::before{
@@ -142,7 +142,7 @@ html{
  background: url('../bg.jpg');
  width: 100%;
  height: 100%;
- z-index: -1;
+ z-index: -2;
  opacity: 0.3;
 }
 
@@ -153,11 +153,11 @@ html{
 }
 
 .client-item{
-    padding: 34px;
+    padding: 25px;
 }
 
 #clients img{
-    height: 124px;
+    height: 90px;
 }
 
 
